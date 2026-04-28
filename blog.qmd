@@ -4,4 +4,4 @@ title: "Blog"
 
 ## Posts
 
-- [First mathematical note](posts/raindrop.qmd)
+- [A Tweet and the Raindrop](posts/raindrop.qmd)
