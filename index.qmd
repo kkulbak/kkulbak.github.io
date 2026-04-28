@@ -4,12 +4,12 @@ title: "Home"
 
 # Kutay Kulbak
 
-I am an undergraduate student in physics and mathematics at École Polytechnique.
+Hey there! I am an undergraduate student in physics and mathematics at École Polytechnique.
 
-This website is a personal archive for my notes, writings, projects, PDFs, and research-related material.
+I use this place as a personal archive & blog.
 
 ## Sections
 
-- [Blog](blog.qmd): short writings and mathematical notes.
-- [Archive](archive.qmd): PDFs, posters, documents, and longer-form material.
-- [About](about.qmd): background and contact information.
+- [Blog](blog.qmd)
+- [Archive](archive.qmd)
+- [About](about.qmd)

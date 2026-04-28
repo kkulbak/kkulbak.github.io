@@ -4,35 +4,35 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "This is where I will collect short writings, notes, and essays."
+    "text": "First mathematical note"
   },
   {
     "objectID": "blog.html#posts",
     "href": "blog.html#posts",
     "title": "Blog",
-    "section": "Posts",
-    "text": "Posts\n\nFirst mathematical note"
+    "section": "",
+    "text": "First mathematical note"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "I am an undergraduate student in physics and mathematics at École Polytechnique.\nThis website is a personal archive for my notes, writings, projects, PDFs, and research-related material.\n\n\n\nBlog: short writings and mathematical notes.\nArchive: PDFs, posters, documents, and longer-form material.\nAbout: background and contact information."
+    "text": "Hey there! I am an undergraduate student in physics and mathematics at École Polytechnique.\nI use this place as a personal archive & blog.\n\n\n\nBlog\nArchive\nAbout"
   },
   {
     "objectID": "index.html#sections",
     "href": "index.html#sections",
     "title": "Home",
     "section": "",
-    "text": "Blog: short writings and mathematical notes.\nArchive: PDFs, posters, documents, and longer-form material.\nAbout: background and contact information."
+    "text": "Blog\nArchive\nAbout"
   },
   {
-    "objectID": "posts/first-note.html",
-    "href": "posts/first-note.html",
+    "objectID": "posts/raindrop.html",
+    "href": "posts/raindrop.html",
     "title": "First Mathematical Note",
     "section": "",
-    "text": "This is my first test post.\nHere is an inline formula: \\(E = mc^2\\).\nHere is a displayed equation:\n\\[\nQ = \\frac{\\sqrt{\\lambda_1 \\lambda_2}}{\\alpha(\\lambda_1+\\lambda_2)}.\n\\]\nThis can be used for math-heavy notes, research explanations, or lecture-style writing."
+    "text": "I ran into this tweet yesterday:\n\n\n…\n\n— Name (@mathelirium) Date"
   },
   {
     "objectID": "archive.html",
@@ -53,6 +53,6 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About\nCV"
   }
 ]

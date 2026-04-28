@@ -1,0 +1,14 @@
+---
+title: "First Mathematical Note"
+date: 2026-04-28
+---
+
+I ran into this tweet yesterday:
+
+<blockquote class="twitter-tweet">
+  <p lang="en" dir="ltr">...</p>
+  &mdash; Name (@mathelirium)
+  <a href="https://x.com/mathelirium/status/2048712166371406035?s=46">Date</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
