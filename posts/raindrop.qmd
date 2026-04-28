@@ -10,8 +10,8 @@ I ran into this tweet yesterday:
   <p lang="en" dir="ltr">
     Tweet by @mathelirium.
   </p>
-  &mdash; Display Name (@mathelirium)
-  <a href="https://twitter.com/mathelirium/status/2048712166371406035">Month Day, Year</a>
+  &mdash; (@mathelirium)
+  <a href="https://twitter.com/mathelirium/status/2048712166371406035">April 27, 2026</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -21,7 +21,7 @@ The detailed statement and the solution of the problem can be found [here](https
 
 Briefly, we consider a *raindrop* that falls down under the influence of gravity in a medium of that is filled with many small water droplets. The drop merges with the droplets as it moves, and grows. We simplify our model by considering the droplets as a medium of constant density $\lambda \neq 0$ where the droplets are stationary. We denote the density of the raindrop as $\rho$, and investigate the inelastic collisions between the raindrop and the droplets.
 
-After solving a few short differential equations, we get the acceleration of the raindrop as $a=g/7$. This result is surprising to me, because it does not depend on $\rho$ or $\lambda$. Even though it's a nice result, this lack of dependence gives us a weird result in the edge cases of our problem: What happens if $\lambda = 0? Physically, we expect to have $a=g$, because there is nothing that's slowing down the raindrop. Mathematically, the issue is easy to spot. In Eq. 5 of the solution, the ratio $\rho/\lambda$ is not defined when $\lambda = 0$. Therefore, the solution is not valid for that case. Thus, we can generalize our solution as
+After solving a few short differential equations, we get the acceleration of the raindrop as $a=g/7$. This result is surprising to me, because it does not depend on $\rho$ or $\lambda$. Even though it's a nice result, this lack of dependence gives us a weird result in the edge cases of our problem: What happens if $\lambda = 0$? Physically, we expect to have $a=g$, because there is nothing that's slowing down the raindrop. Mathematically, the issue is easy to spot. In Eq. 5 of the solution, the ratio $\rho/\lambda$ is not defined when $\lambda = 0$. Therefore, the solution is not valid for that case. Thus, we can generalize our solution as
 $$\begin{align*}
 a(\lambda) = 
 \begin{cases}
