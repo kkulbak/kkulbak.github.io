@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "This is where I will collect short writings, notes, and essays."
+  },
+  {
+    "objectID": "blog.html#posts",
+    "href": "blog.html#posts",
+    "title": "Blog",
+    "section": "Posts",
+    "text": "Posts\n\nFirst mathematical note"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am an undergraduate student in physics and mathematics at École Polytechnique.\nThis website is a personal archive for my notes, writings, projects, PDFs, and research-related material.\n\n\n\nBlog: short writings and mathematical notes.\nArchive: PDFs, posters, documents, and longer-form material.\nAbout: background and contact information."
+  },
+  {
+    "objectID": "index.html#sections",
+    "href": "index.html#sections",
+    "title": "Home",
+    "section": "",
+    "text": "Blog: short writings and mathematical notes.\nArchive: PDFs, posters, documents, and longer-form material.\nAbout: background and contact information."
+  },
+  {
+    "objectID": "posts/first-note.html",
+    "href": "posts/first-note.html",
+    "title": "First Mathematical Note",
+    "section": "",
+    "text": "This is my first test post.\nHere is an inline formula: \\(E = mc^2\\).\nHere is a displayed equation:\n\\[\nQ = \\frac{\\sqrt{\\lambda_1 \\lambda_2}}{\\alpha(\\lambda_1+\\lambda_2)}.\n\\]\nThis can be used for math-heavy notes, research explanations, or lecture-style writing."
+  },
+  {
+    "objectID": "archive.html",
+    "href": "archive.html",
+    "title": "Archive",
+    "section": "",
+    "text": "This page collects PDFs, notes, posters, manuscripts, and other documents."
+  },
+  {
+    "objectID": "archive.html#pdfs",
+    "href": "archive.html#pdfs",
+    "title": "Archive",
+    "section": "PDFs",
+    "text": "PDFs\n\nComing soon."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]

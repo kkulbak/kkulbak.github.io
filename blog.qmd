@@ -1,0 +1,9 @@
+---
+title: "Blog"
+---
+
+This is where I will collect short writings, notes, and essays.
+
+## Posts
+
+- [First mathematical note](posts/first-note.qmd)
