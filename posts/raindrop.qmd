@@ -1,14 +1,34 @@
 ---
-title: "First Mathematical Note"
+title: "A Tweet and the Raindrop"
 date: 2026-04-28
 ---
 
 I ran into this tweet yesterday:
 
+```{=html}
 <blockquote class="twitter-tweet">
-  <p lang="en" dir="ltr">...</p>
-  &mdash; Name (@mathelirium)
-  <a href="https://x.com/mathelirium/status/2048712166371406035?s=46">Date</a>
+  <p lang="en" dir="ltr">
+    Tweet by @mathelirium.
+  </p>
+  &mdash; Display Name (@mathelirium)
+  <a href="https://twitter.com/mathelirium/status/2048712166371406035">Month Day, Year</a>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+In the simulations, we see the behavior of no viscosity $\nu = 0$ and vanishing viscosity $\nu \rightarrow 0$ are different, and not the second doesn't converge to the first. This reminded me of a problem I solved back in high school, called *The Raindrop*. 
+
+The detailed statement and the solution of the problem can be found [here](https://www.physics.harvard.edu/sites/g/files/omnuum6476/files/physics/files/sol5.pdf). 
+
+Briefly, we consider a *raindrop* that falls down under the influence of gravity in a medium of that is filled with many small water droplets. The drop merges with the droplets as it moves, and grows. We simplify our model by considering the droplets as a medium of constant density $\lambda \neq 0$ where the droplets are stationary. We denote the density of the raindrop as $\rho$, and investigate the inelastic collisions between the raindrop and the droplets.
+
+After solving a few short differential equations, we get the acceleration of the raindrop as $a=g/7$. This result is surprising to me, because it does not depend on $\rho$ or $\lambda$. Even though it's a nice result, this lack of dependence gives us a weird result in the edge cases of our problem: What happens if $\lambda = 0? Physically, we expect to have $a=g$, because there is nothing that's slowing down the raindrop. Mathematically, the issue is easy to spot. In Eq. 5 of the solution, the ratio $\rho/\lambda$ is not defined when $\lambda = 0$. Therefore, the solution is not valid for that case. Thus, we can generalize our solution as
+$$\begin{align*}
+a(\lambda) = 
+\begin{cases}
+g, &\lambda = 0\\
+g/7, &\lambda > 0
+\end{cases}
+\end{align*}$$
+Now, even though this is a mathematically complete solution, the fact that the $\lambda > 0$ solution does not converge to the $\lambda = 0$ solution makes me uncomfortable, in the same way the tweet I shared made me feel. At this point, of course, we need to revisit our problem setup and the physical model to see where things went wrong. First of all, we cannot model many small droplets as a medium of uniform density. Second, we cannot simplify the interactions of fluid masses by only considering inelastic collisions. If we push further, we can even find inconsistencies within the model itself: For one, I am not convinced that the raindrop would keep its spherical shape during its motion, even in this simplified model.
+
+Therefore, what I conclude it that even though it is entertaining and insightful to obtain solutions for complex problems using oversimplified solution, it is not worth the time to think about the physically inconsistent results we get from these solutions. After all, neither the model nor the the solution is real, only our intutition is real. Of course, if there are almost no droplets but still some droplets, the raindrop will move with an acceleration closer to $g$, and we don't need a model to arrive to this conclusion.

@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-04-28">
 
-<title>First Mathematical Note – Kutay Kulbak</title>
+<title>A Tweet and the Raindrop – Kutay Kulbak</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -72,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -120,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">First Mathematical Note</h1>
+<h1 class="title">A Tweet and the Raindrop</h1>
 </div>
 
 
@@ -146,11 +175,22 @@ ul.task-list li input[type="checkbox"] {
 <p>I ran into this tweet yesterday:</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
-…
+Tweet by <span class="citation" data-cites="mathelirium">@mathelirium</span>.
 </p>
-— Name (<span class="citation" data-cites="mathelirium">@mathelirium</span>) <a href="https://x.com/mathelirium/status/2048712166371406035?s=46">Date</a>
+— Display Name (<span class="citation" data-cites="mathelirium">@mathelirium</span>) <a href="https://twitter.com/mathelirium/status/2048712166371406035">Month Day, Year</a>
 </blockquote>
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>In the simulations, we see the behavior of no viscosity <span class="math inline">\(\nu = 0\)</span> and vanishing viscosity <span class="math inline">\(\nu \rightarrow 0\)</span> are different, and not the second doesn’t converge to the first. This reminded me of a problem I solved back in high school, called <em>The Raindrop</em>.</p>
+<p>The detailed statement and the solution of the problem can be found <a href="https://www.physics.harvard.edu/sites/g/files/omnuum6476/files/physics/files/sol5.pdf">here</a>.</p>
+<p>Briefly, we consider a <em>raindrop</em> that falls down under the influence of gravity in a medium of that is filled with many small water droplets. The drop merges with the droplets as it moves, and grows. We simplify our model by considering the droplets as a medium of constant density <span class="math inline">\(\lambda \neq 0\)</span> where the droplets are stationary. We denote the density of the raindrop as <span class="math inline">\(\rho\)</span>, and investigate the inelastic collisions between the raindrop and the droplets.</p>
+<p>After solving a few short differential equations, we get the acceleration of the raindrop as <span class="math inline">\(a=g/7\)</span>. This result is surprising to me, because it does not depend on <span class="math inline">\(\rho\)</span> or <span class="math inline">\(\lambda\)</span>. Even though it’s a nice result, this lack of dependence gives us a weird result in the edge cases of our problem: What happens if $= 0? Physically, we expect to have <span class="math inline">\(a=g\)</span>, because there is nothing that’s slowing down the raindrop. Mathematically, the issue is easy to spot. In Eq. 5 of the solution, the ratio <span class="math inline">\(\rho/\lambda\)</span> is not defined when <span class="math inline">\(\lambda = 0\)</span>. Therefore, the solution is not valid for that case. Thus, we can generalize our solution as <span class="math display">\[\begin{align*}
+a(\lambda) =
+\begin{cases}
+g, &amp;\lambda = 0\\
+g/7, &amp;\lambda &gt; 0
+\end{cases}
+\end{align*}\]</span> Now, even though this is a mathematically complete solution, the fact that the <span class="math inline">\(\lambda &gt; 0\)</span> solution does not converge to the <span class="math inline">\(\lambda = 0\)</span> solution makes me uncomfortable, in the same way the tweet I shared made me feel. At this point, of course, we need to revisit our problem setup and the physical model to see where things went wrong. First of all, we cannot model many small droplets as a medium of uniform density. Second, we cannot simplify the interactions of fluid masses by only considering inelastic collisions. If we push further, we can even find inconsistencies within the model itself: For one, I am not convinced that the raindrop would keep its spherical shape during its motion, even in this simplified model.</p>
+<p>Therefore, what I conclude it that even though it is entertaining and insightful to obtain solutions for complex problems using oversimplified solution, it is not worth the time to think about the physically inconsistent results we get from these solutions. After all, neither the model nor the the solution is real, only our intutition is real. Of course, if there are almost no droplets but still some droplets, the raindrop will move with an acceleration closer to <span class="math inline">\(g\)</span>, and we don’t need a model to arrive to this conclusion.</p>
 
 
 
