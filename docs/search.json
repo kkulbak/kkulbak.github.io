@@ -4,14 +4,14 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "A Tweet and the Raindrop"
+    "text": "Manuscript is out!\nA Tweet and the Raindrop"
   },
   {
     "objectID": "blog.html#posts",
     "href": "blog.html#posts",
     "title": "Blog",
     "section": "",
-    "text": "A Tweet and the Raindrop"
+    "text": "Manuscript is out!\nA Tweet and the Raindrop"
   },
   {
     "objectID": "index.html",
@@ -26,6 +26,13 @@
     "title": "Home",
     "section": "",
     "text": "Blog\nArchive\nAbout"
+  },
+  {
+    "objectID": "posts/manuscript.html",
+    "href": "posts/manuscript.html",
+    "title": "Manuscript is out!",
+    "section": "",
+    "text": "The manuscript of my poster presentation from SPIE Photonics Europe 2026 is out arXiv:\nhttps://arxiv.org/abs/2604.16938\nI hope to post a detailed text on everything we did related to the LLG equation as supplementary material for this manuscript, whenever I feel like we’re done."
   },
   {
     "objectID": "posts/raindrop.html",

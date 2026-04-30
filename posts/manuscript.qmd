@@ -1,0 +1,10 @@
+---
+title: "Manuscript is out!"
+date: 2026-04-30
+---
+
+The manuscript of my poster presentation from SPIE Photonics Europe 2026 is out arXiv:
+
+<https://arxiv.org/abs/2604.16938>
+
+I hope to post a detailed text on everything we did related to the LLG equation as supplementary material for this manuscript, whenever I feel like we're done.

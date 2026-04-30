@@ -4,4 +4,5 @@ title: "Blog"
 
 ## Posts
 
+- [Manuscript is out!](posts/manuscript.qmd)
 - [A Tweet and the Raindrop](posts/raindrop.qmd)
