@@ -4,5 +4,6 @@ title: "Blog"
 
 ## Posts
 
+- [End of my internship at LLR](posts/LHCb_internship.qmd)
 - [Manuscript is out!](posts/manuscript.qmd)
 - [A Tweet and the Raindrop](posts/raindrop.qmd)
