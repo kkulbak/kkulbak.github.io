@@ -1,0 +1,23 @@
+---
+title: "Problem Sets"
+date: 2026-07-07
+---
+
+I spent 5 years studying for physics olympiads back in high schools. In my school, like many other olympiad-oriented schools, if you were old enough, you would start tutoring the younger promotions. In most of my tutoring sessions, I would just solve the probems from textbooks or the problem sets our professor had prepared. In my last year, however, I took on a bigger responsibility and prepared 3 problem sets with selected problems from different souces after my professor asked for it. 
+
+Later, from September 2025 to February 2025, I tutored another student preparing for olympiads privately. I prepared 9 more problem sets for her for our sessions, this time increasing the variety of the souces I picked the problems from.
+
+These 12 problem sets (first 3 in Turkish, rest in English) contains problems varying from introductory level to Olympiad level in almost all topics contained in the physics olympiads curriculum. They are not particularly original, but I think they would be useful for students trying to make sure there are no topics they didn't cover, or to find new problem sources, since most problems have references to where they are from.
+
+- [Soru Seti 1](problem_sets/Soru Seti 1.pdf)
+- [Soru Seti 2](problem_sets/Soru Seti 3.pdf)
+- [Soru Seti 3](problem_sets/Soru Seti 3.pdf)
+- [Problem Set 4](problem_sets/Soru Seti 4.pdf)
+- [Problem Set 5](problem_sets/Soru Seti 5.pdf)
+- [Problem Set 6](problem_sets/Soru Seti 6.pdf)
+- [Problem Set 7](problem_sets/Soru Seti 7.pdf)
+- [Problem Set 8](problem_sets/Soru Seti 8.pdf)
+- [Problem Set 9](problem_sets/Soru Seti 9.pdf)
+- [Problem Set 10](problem_sets/Soru Seti 10.pdf)
+- [Problem Set 11](problem_sets/Soru Seti 11.pdf)
+- [Problem Set 12](problem_sets/Soru Seti 12.pdf)

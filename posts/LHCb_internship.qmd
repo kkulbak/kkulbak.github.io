@@ -17,6 +17,6 @@ With all these said, I genuinely think that this internship was a valuable exper
 
 Anyways, the report from my intership and the presentation slides from the defense are below, in case anyone is interested in seeing how a research project in particle physics without knowing any particle physics looks.
 
-[Validation of the Fast Calorimeter Simulation in LHCb Fixed-Target Collisions](files/Validation of the Fast Calorimeter Simulation in LHCb Fixed-Target Collisions.pdf)
+[Validation of the Fast Calorimeter Simulation in LHCb Fixed-Target Collisions](./files/Validation of the Fast Calorimeter Simulation in LHCb Fixed-Target Collisions.pdf)
 
-[Slides](files/PRL_Presentation.pdf)
+[Slides](./files/PRL_Presentation.pdf)
