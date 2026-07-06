@@ -1,0 +1,5 @@
+---
+title: "Resouces"
+---
+
+[Physics Olympiad Problem Sets](resources/problem_sets.qmd)

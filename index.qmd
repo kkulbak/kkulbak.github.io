@@ -13,3 +13,4 @@ I use this space as a personal archive & blog.
 - [Blog](blog.qmd)
 - [Archive](archive.qmd)
 - [About](about.qmd)
+- [Resources](resources.qmd)
