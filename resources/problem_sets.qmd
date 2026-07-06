@@ -19,5 +19,5 @@ These 12 problem sets (first 3 in Turkish, rest in English) contains problems va
 - [Problem Set 8](problem_sets/Soru Seti 8.pdf)
 - [Problem Set 9](problem_sets/Soru Seti 9.pdf)
 - [Problem Set 10](problem_sets/Soru Seti 10.pdf)
-- [Problem Set 11](problem_sets/Soru Seti 11.pdf)
-- [Problem Set 12](problem_sets/Soru Seti 12.pdf)
+- [Problem Set 11](problem_sets/Soru_Seti_11.pdf)
+- [Problem Set 12](problem_sets/Soru_Seti_12.pdf)
