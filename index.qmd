@@ -10,7 +10,6 @@ I use this space as a personal archive & blog.
 
 ## Sections
 
-- [Blog](blog.qmd)
-- [Archive](archive.qmd)
 - [About](about.qmd)
+- [Blog](blog.qmd)
 - [Resources](resources.qmd)

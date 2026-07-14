@@ -4,14 +4,14 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "End of my internship at LLR\nManuscript is out!\nA Tweet and the Raindrop"
+    "text": "Last month’s reading (June 15 - July 12)\nEnd of my internship at LLR\nManuscript is out!\nA Tweet and the Raindrop"
   },
   {
     "objectID": "blog.html#posts",
     "href": "blog.html#posts",
     "title": "Blog",
     "section": "",
-    "text": "End of my internship at LLR\nManuscript is out!\nA Tweet and the Raindrop"
+    "text": "Last month’s reading (June 15 - July 12)\nEnd of my internship at LLR\nManuscript is out!\nA Tweet and the Raindrop"
   },
   {
     "objectID": "archive.html",
@@ -33,6 +33,34 @@
     "title": "Manuscript is out!",
     "section": "",
     "text": "The manuscript of my poster presentation from SPIE Photonics Europe 2026 is out arXiv:\nhttps://arxiv.org/abs/2604.16938\nI hope to post a detailed text on everything we did related to the LLG equation as supplementary material for this manuscript, whenever I feel like we’re done."
+  },
+  {
+    "objectID": "posts/last_month_june_15_july_12.html",
+    "href": "posts/last_month_june_15_july_12.html",
+    "title": "Last month’s reading (June 15 - July 12)",
+    "section": "",
+    "text": "Once I was done with the rough week of finals, I was able to go back to my internship at LSI (about magnetism precessions), and start a new internship at IPhT. In the past month, in the context of these interships, I had a chance to read a lot of interesting stuff, and I thought I would share some that I particularly enjoyed."
+  },
+  {
+    "objectID": "posts/last_month_june_15_july_12.html#nonlinear-dynamics-and-quantum-chaos-sandro-wimberger",
+    "href": "posts/last_month_june_15_july_12.html#nonlinear-dynamics-and-quantum-chaos-sandro-wimberger",
+    "title": "Last month’s reading (June 15 - July 12)",
+    "section": "Nonlinear Dynamics and Quantum Chaos, Sandro Wimberger",
+    "text": "Nonlinear Dynamics and Quantum Chaos, Sandro Wimberger\nThis book was recommended to me by my internship supervisor Prof. Temnov from LSI. Of course, by its nature, working with the LLG equation means working a lot on nonlinear dynamics. As a matter of fact, in the past one and a half years, I decided that describing my work at LSI as “spintronics” was the right way. The term I should have been using all along was “nonlinear dynamics”. Naturally, I found this book very helpful, because it gave me a lot of insight on the general picture of nonlinear dynamics, beyond the scope of what is only described by the narrow topic that I focus on in the context of spin precessions.\nThis books introduces the fundamental concepts very well, but it also assumes a solid background of classical mechanics, especially on Hamiltonian formalism. There are in-depth theoretical investigations of nonlinear systems with examples, and also notes on practical concepts such as maximal Lyapunov exponents, which I ran into many times in papers on chaos in spin precessions.\nUnfortunately, so far I only had time to read the sections on classical chaos, which is only the half of what this book offers. I hope to check out the part on quantum chaos as soon as possible."
+  },
+  {
+    "objectID": "posts/last_month_june_15_july_12.html#chaotic-magnetization-dynamics-in-magnetic-duffing-oscillator-tatsumi-et-al.",
+    "href": "posts/last_month_june_15_july_12.html#chaotic-magnetization-dynamics-in-magnetic-duffing-oscillator-tatsumi-et-al.",
+    "title": "Last month’s reading (June 15 - July 12)",
+    "section": "Chaotic magnetization dynamics in magnetic Duffing oscillator, Tatsumi et al.",
+    "text": "Chaotic magnetization dynamics in magnetic Duffing oscillator, Tatsumi et al.\nThis paper was also sent to me by Prof. Temnov. The contents of it happened to be very similar to the subject we were working on, and helped us refine our analyses on a specific configuration that was not analyzed in this paper. I feel like more information on this could be considered as spoilers, so I stop here.\nIn this paper, they provide analyses on the dynamics of spin precessions periodically driven by an external magnetic field in the presence of a static field. Figures 4 and 6 give a very good overview of the system in different parameter configurations, and the 3D visualizations of selected special orbits are very illustrative."
+  },
+  {
+    "objectID": "posts/last_month_june_15_july_12.html#models-of-quantum-matter---a-first-course-on-integrability-and-the-bethe-ansatz-hans-peter-eckle",
+    "href": "posts/last_month_june_15_july_12.html#models-of-quantum-matter---a-first-course-on-integrability-and-the-bethe-ansatz-hans-peter-eckle",
+    "title": "Last month’s reading (June 15 - July 12)",
+    "section": "Models of Quantum Matter - A First Course on Integrability and the Bethe Ansatz, Hans-Peter Eckle",
+    "text": "Models of Quantum Matter - A First Course on Integrability and the Bethe Ansatz, Hans-Peter Eckle\nThis is the book I was told to focus on for my internship at IPhT by my supervisor Prof. Didina Serban. I am still in the process of reading this book. Even though I had only one course on quantum mechanics so far, which was an introductory one, I had no issue following the contents of this book. This is mostly because the book starts with an eight chapter introductory sequence that covers everything that is needed for following sections, from basic notions on many-body quantum mechanical systems and spin operators to equilibrium statistical mechanics and phase transitions. I found the section on renormalization especially fun, and even though it was illustrated with the simple example of one-dimensional Ising model, it is apparent that this concept has a lot of important applications.\nI also ran into this website on The Bethe Ansatz, which has a section dedicated to the problem I am interested in, the Heisenberg spin chain."
   },
   {
     "objectID": "posts/raindrop.html",
@@ -60,14 +88,14 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "Hey there! I am an undergraduate student in physics and mathematics at École Polytechnique.\nI use this space as a personal archive & blog.\n\n\n\nBlog\nArchive\nAbout\nResources"
+    "text": "Hey there! I am an undergraduate student in physics and mathematics at École Polytechnique.\nI use this space as a personal archive & blog.\n\n\n\nAbout\nBlog\nResources"
   },
   {
     "objectID": "index.html#sections",
     "href": "index.html#sections",
     "title": "Home",
     "section": "",
-    "text": "Blog\nArchive\nAbout\nResources"
+    "text": "About\nBlog\nResources"
   },
   {
     "objectID": "resources.html",

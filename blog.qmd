@@ -4,6 +4,7 @@ title: "Blog"
 
 ## Posts
 
+- [Last month's reading (June 15 - July 12)](posts/last_month_june_15_july_12.qmd)
 - [End of my internship at LLR](posts/LHCb_internship.qmd)
 - [Manuscript is out!](posts/manuscript.qmd)
 - [A Tweet and the Raindrop](posts/raindrop.qmd)

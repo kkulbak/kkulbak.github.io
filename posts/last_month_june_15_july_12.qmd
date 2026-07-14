@@ -1,0 +1,28 @@
+---
+title: "Last month's reading (June 15 - July 12)"
+date: 2026-07-14
+---
+
+Once I was done with the rough week of finals, I was able to go back to my internship at [LSI](https://portail.polytechnique.edu/lsi/en/welcome-0.html) (about magnetism precessions), and start a new internship at [IPhT](https://www.ipht.fr/). In the past month, in the context of these interships, I had a chance to read a lot of interesting stuff, and I thought I would share some that I particularly enjoyed.
+
+## [Nonlinear Dynamics and Quantum Chaos, Sandro Wimberger](https://link.springer.com/book/10.1007/978-3-319-06343-0)
+
+This book was recommended to me by my internship supervisor Prof. Temnov from LSI. Of course, by its nature, working with the LLG equation means working a lot on nonlinear dynamics. As a matter of fact, in the past one and a half years, I decided that describing my work at LSI as "spintronics" was the right way. The term I should have been using all along was "nonlinear dynamics". Naturally, I found this book very helpful, because it gave me a lot of insight on the general picture of nonlinear dynamics, beyond the scope of what is only described by the narrow topic that I focus on in the context of spin precessions. 
+
+This books introduces the fundamental concepts very well, but it also assumes a solid background of classical mechanics, especially on Hamiltonian formalism. There are in-depth theoretical investigations of nonlinear systems with examples, and also notes on practical concepts such as maximal Lyapunov exponents, which I ran into many times in papers on chaos in spin precessions.
+
+Unfortunately, so far I only had time to read the sections on classical chaos, which is only the half of what this book offers. I hope to check out the part on quantum chaos as soon as possible.
+
+
+## [Chaotic magnetization dynamics in magnetic Duffing oscillator, Tatsumi et al.](10.1103/PhysRevE.111.064202)
+
+This paper was also sent to me by Prof. Temnov. The contents of it happened to be very similar to the subject we were working on, and helped us refine our analyses on a specific configuration that was not analyzed in this paper. I feel like more information on this could be considered as spoilers, so I stop here.
+
+In this paper, they provide analyses on the dynamics of spin precessions periodically driven by an external magnetic field in the presence of a static field. Figures 4 and 6 give a very good overview of the system in different parameter configurations, and the 3D visualizations of selected special orbits are very illustrative. 
+
+
+## [Models of Quantum Matter - A First Course on Integrability and the Bethe Ansatz, Hans-Peter Eckle](https://academic.oup.com/book/43700)
+
+This is the book I was told to focus on for my internship at IPhT by my supervisor Prof. Didina Serban. I am still in the process of reading this book. Even though I had only one course on quantum mechanics so far, which was an introductory one, I had no issue following the contents of this book. This is mostly because the book starts with an eight chapter introductory sequence that covers everything that is needed for following sections, from basic notions on many-body quantum mechanical systems and spin operators to equilibrium statistical mechanics and phase transitions. I found the section on renormalization especially fun, and even though it was illustrated with the simple example of one-dimensional Ising model, it is apparent that this concept has a lot of important applications.
+
+I also ran into this website on [The Bethe Ansatz](https://integrability.org/), which has a section dedicated to the problem I am interested in, the Heisenberg spin chain.
